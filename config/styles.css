@@ -1,0 +1,150 @@
+.html {
+    background-color: #242424;
+    color: #C9C9C9;
+}
+
+@font-face {
+    font-family: 'Baskerville';
+    src: url('./font/Baskervville-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Baskerville', serif;
+    background-color: #242424;
+    color: #C9C9C9;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, span, div {
+    font-family: 'Baskerville', serif;
+    color: #C9C9C9;
+}
+
+.card {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.cardTopBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.cardRightLeft {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.mainContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1F1F1F;
+    cursor: pointer;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #242424;
+    border: 1px solid white
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1; 
+   }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .navbar {
+    display: flex; 
+  }
+
+  .navbarContainer {
+    display: flex; 
+    position: sticky; 
+    top: 0; 
+    background-color: #1F1F1F; 
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding: 20px
+  }
+
+.container {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+@media only screen and (max-width: 1550px) {
+    .container {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .cardRightLeft {
+        width: 100%;
+    }
+} 
+
+@media only screen and (max-width: 900px) {
+    .container {
+        padding: 0; 
+    }
+    .cardRightLeft {
+        width: 100%;
+    }
+} 
