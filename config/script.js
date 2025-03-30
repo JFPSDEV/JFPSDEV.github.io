@@ -471,7 +471,7 @@ const data = [
         },
         media2: {
             type: MEDIA_TYPE.IMG,
-            link: img_url + `4.5.JPG`,
+            link: img_url + `4.5.png`,
             size: 650
         },
     },
@@ -499,12 +499,12 @@ const data = [
         },
         media: {
             type: MEDIA_TYPE.IMG,
-            link: img_url + `5.1.JPG`,
+            link: img_url + `5.1.png`,
             size: 650
         },
         media2: {
             type: MEDIA_TYPE.IMG,
-            link: img_url + `5.2.JPG`,
+            link: img_url + `5.2.png`,
             size: 650
         },
     },
