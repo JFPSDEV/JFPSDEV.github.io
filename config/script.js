@@ -24,14 +24,14 @@ const video_url = "./config/video/";
 const data = [
     {
         title: {
-            text:`Variant Text Bottom \n test`,
+            text:`1.1 : Nomada Studio, Gris : les couleurs des niveaux`,
             fontSize: 24,
             fontStyle: "normal",
             fontWeight: "bold",
             textAlign: "center"
         },
         description: {
-            text: `Lorem ipsum dolor sit amet,\n consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+            text: `Nomada Studio, Gris, 2018, jeu vidéo (extraits vidéos provenant de la chaine youtube : MKIceAndFire)`,
             fontSize: 16,
             fontStyle: "italic",
             fontWeight: "normal", 
@@ -40,103 +40,46 @@ const data = [
         variant: VARIANT.CARD_BOTTOM,
         nav: {
             chapter: "Chapitre 1",
-            label: "Variant 1",
-            balise: "bloc1",
-        },
-        media: {
-            type: MEDIA_TYPE.VIDEO,
-            link: video_url + `/video_jump_song.mp4`,
-            size: 600
-        },
-    },
-    {
-        title: {
-            text:`Variant Text Top`,
-            fontSize: 24,
-            fontStyle: "normal",
-            fontWeight: "bold",
-            textAlign: "center"
-        },
-        backgroundColor: "#1F1F1F",
-        description: {
-            text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
-            fontSize: 16,
-            fontStyle: "italic",
-            fontWeight: "normal", 
-            textAlign: "center"
-        },
-        variant: VARIANT.CARD_TOP,
-        nav: {
-            chapter: "Chapitre 1",
-            label: "Variant 2",
+            label: "1.1 : Nomada Studio, Gris : les couleurs des niveaux",
             balise: "bloc2",
         },
         media: {
-            type: MEDIA_TYPE.IMG,
-            link: img_url + `2.webp`,
-            size: 600
+            type: MEDIA_TYPE.VIDEO,
+            link: video_url + `/1.1.mp4`,
+            size: 1000
         },
     },
     {
         title: {
-            text:`Variant Text Right`,
+            text:`1.2 : Nomada Studio, Gris : la tempête`,
             fontSize: 24,
             fontStyle: "normal",
             fontWeight: "bold",
-            textAlign: "center",
-            spacing: 60
-        },
-        description: {
-            text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
-            fontSize: 16,
-            fontStyle: "italic",
-            fontWeight: "normal", 
-            textAlign: "left"
-        },
-        variant: VARIANT.CARD_RIGHT,
-        nav: {
-            chapter: "Chapitre 2",
-            label: "Variant 3",
-            balise: "bloc3",
-        },
-        media: {
-            type: MEDIA_TYPE.IMG,
-            link: img_url + `3.webp`,
-            size: 600
-        },
-    },
-    {
-        title: {
-            text:`Variant Text Left`,
-            fontSize: 24,
-            fontStyle: "normal",
-            fontWeight: "bold",
-            textAlign: "center",
-            spacing: 60
+            textAlign: "center"
         },
         backgroundColor: "#1F1F1F",
         description: {
-            text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+            text: `Nomada Studio, Gris, 2018, jeu vidéo (extraits vidéos provenant de la chaine youtube : MKIceAndFire)`,
             fontSize: 16,
             fontStyle: "italic",
             fontWeight: "normal", 
-            textAlign: "right"
+            textAlign: "center"
         },
+        variant: VARIANT.CARD_BOTTOM,
         nav: {
-            chapter: "Chapitre 2",
-            label: "Variant 4",
-            balise: "bloc4",
+            chapter: "Chapitre 1",
+            label: "1.2 : Nomada Studio, Gris : la tempête",
+            balise: "bloc3",
         },
-        variant: VARIANT.CARD_LEFT,
         media: {
-            type: MEDIA_TYPE.IMG,
-            link: img_url + `4.webp`,
-            size: 600
-        }
+            type: MEDIA_TYPE.VIDEO,
+            link: video_url + `/1.2.mp4`,
+            size: 1000
+        },
     },
     {
         title: {
-            text:`Variant Double Media Text Right`,
+            text:`1.3 : Nomada Studio, Gris : Musiques`,
             fontSize: 24,
             fontStyle: "normal",
             fontWeight: "bold",
@@ -144,7 +87,7 @@ const data = [
             spacing: 60
         },
         description: {
-            text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+            text: `Berlinist, Gris, Pt.1 et Gris, Pt.2 (Nomada Studio, Gris, 2018, jeu vidéo)`,
             fontSize: 16,
             fontStyle: "italic",
             fontWeight: "normal", 
@@ -152,24 +95,422 @@ const data = [
         },
         variant: VARIANT.DOUBLE_MEDIA_CARD_RIGHT,
         nav: {
-            chapter: "Chapitre 3",
-            label: "Variant 5",
-            balise: "bloc5",
+            chapter: "Chapitre 1",
+            label: "1.3 : Nomada Studio, Gris : Musiques",
+            balise: "bloc4",
         },
         media: {
             type: MEDIA_TYPE.VIDEO,
-            link: video_url + `/video_jump_song.mp4`,
-            size: 600
+            link: video_url + `/1.3.mp4`,
+            size: 650
         },
         media2: {
-            type: MEDIA_TYPE.IMG,
-            link: img_url + `3.webp`,
-            size: 600
+            type: MEDIA_TYPE.VIDEO,
+            link: video_url + `/1.4.mp4`,
+            size: 650
         },
     },
     {
         title: {
-            text:`Variant Double Media Text Left`,
+            text:`1.4 : Christopher Nolan, Interstellar`,
+            fontSize: 24,
+            fontStyle: "normal",
+            fontWeight: "bold",
+            textAlign: "center"
+        },
+        backgroundColor: "#1F1F1F",
+        description: {
+            text: `Christopher Nolan, Interstellar, 2014, film, 2h 49min`,
+            fontSize: 16,
+            fontStyle: "italic",
+            fontWeight: "normal", 
+            textAlign: "center"
+        },
+        variant: VARIANT.CARD_BOTTOM,
+        nav: {
+            chapter: "Chapitre 1",
+            label: "1.4 : Christopher Nolan, Interstellar",
+            balise: "bloc10",
+        },
+        media: {
+            type: MEDIA_TYPE.VIDEO,
+            link: video_url + `/1.5.mp4`,
+            size: 1000
+        },
+    },
+    {
+        title: {
+            text:`2.1 : Miwa Matreyek, Myth and Infrastructure`,
+            fontSize: 24,
+            fontStyle: "normal",
+            fontWeight: "bold",
+            textAlign: "center"
+        },
+        description: {
+            text: `Miwa Matreyek, Myth and Infrastructure, 2010, performance, vidéo, 10 minutes`,
+            fontSize: 16,
+            fontStyle: "italic",
+            fontWeight: "normal", 
+            textAlign: "center"
+        },
+        variant: VARIANT.CARD_BOTTOM,
+        nav: {
+            chapter: "Chapitre 2",
+            label: "2.1 : Miwa Matreyek, Myth and Infrastructure",
+            balise: "bloc11",
+        },
+        media: {
+            type: MEDIA_TYPE.VIDEO,
+            link: video_url + `/2.1.mp4`,
+            size: 1000
+        },
+    },
+    {
+        title: {
+            text:`2.2 : Andrew Thomas Huang, Bjök - The Gate`,
+            fontSize: 24,
+            fontStyle: "normal",
+            fontWeight: "bold",
+            textAlign: "center"
+        },
+        backgroundColor: "#1F1F1F",
+        description: {
+            text: `Andrew Thomas Huang, Bjök - The Gate, 2017, vidéo, 6min 47sec`,
+            fontSize: 16,
+            fontStyle: "italic",
+            fontWeight: "normal", 
+            textAlign: "center"
+        },
+        variant: VARIANT.CARD_BOTTOM,
+        nav: {
+            chapter: "Chapitre 2",
+            label: "2.2 : Andrew Thomas Huang, Bjök - The Gate",
+            balise: "bloc12",
+        },
+        media: {
+            type: MEDIA_TYPE.VIDEO,
+            link: video_url + `/2.2.mp4`,
+            size: 1000
+        },
+    },
+    {
+        title: {
+            text:`2.3 : Mélanie Martinez, k-12`,
+            fontSize: 24,
+            fontStyle: "normal",
+            fontWeight: "bold",
+            textAlign: "center"
+        },
+        description: {
+            text: `Mélanie Martinez, k-12, 2019, film, 1h 32min`,
+            fontSize: 16,
+            fontStyle: "italic",
+            fontWeight: "normal", 
+            textAlign: "center"
+        },
+        variant: VARIANT.CARD_BOTTOM,
+        nav: {
+            chapter: "Chapitre 2",
+            label: "2.3 : Mélanie Martinez, k-12",
+            balise: "bloc13",
+        },
+        media: {
+            type: MEDIA_TYPE.VIDEO,
+            link: video_url + `/2.3.mp4`,
+            size: 1000
+        },
+    },
+    {
+        title: {
+            text:`3.1 : Archive personnel, Témoin`,
+            fontSize: 24,
+            fontStyle: "normal",
+            fontWeight: "bold",
+            textAlign: "center"
+        },
+        backgroundColor: "#1F1F1F",
+        description: {
+            text: `Témoin, vidéo, 51sec`,
+            fontSize: 16,
+            fontStyle: "italic",
+            fontWeight: "normal", 
+            textAlign: "center"
+        },
+        variant: VARIANT.CARD_BOTTOM,
+        nav: {
+            chapter: "Chapitre 3",
+            label: "3.1 : Archive personnel, Témoin",
+            balise: "bloc14",
+        },
+        media: {
+            type: MEDIA_TYPE.VIDEO,
+            link: video_url + `/3.1.mp4`,
+            size: 1000
+        },
+    },
+    {
+        title: {
+            text:`3.2 : Peter Tscherkassky, Outer Space\nATTENTION : Flashs lumineux colorés, risque épileptique`,
+            fontSize: 24,
+            fontStyle: "normal",
+            fontWeight: "bold",
+            textAlign: "center"
+        },
+        description: {
+            text: `Peter Tscherkassky, Outer Space, 1999, court-métrage, 10min`,
+            fontSize: 16,
+            fontStyle: "italic",
+            fontWeight: "normal", 
+            textAlign: "center"
+        },
+        variant: VARIANT.CARD_BOTTOM,
+        nav: {
+            chapter: "Chapitre 3",
+            label: "3.2 : Peter Tscherkassky, Outer Space",
+            balise: "bloc15",
+        },
+        media: {
+            type: MEDIA_TYPE.VIDEO,
+            link: video_url + `/3.2.mp4`,
+            size: 1000
+        },
+    },
+    {
+        title: {
+            text:`3.3 : Nicolas Winding Refn, The Neon Demon\nATTENTION : Flashs lumineux colorés, risque épileptique`,
+            fontSize: 24,
+            fontStyle: "normal",
+            fontWeight: "bold",
+            textAlign: "center"
+        },
+        backgroundColor: "#1F1F1F",
+        description: {
+            text: `Nicolas Winding Refn, The Neon Demon, 2016, 1h 57min`,
+            fontSize: 16,
+            fontStyle: "italic",
+            fontWeight: "normal", 
+            textAlign: "center"
+        },
+        variant: VARIANT.CARD_BOTTOM,
+        nav: {
+            chapter: "Chapitre 3",
+            label: "3.3 : Nicolas Winding Refn, The Neon Demon",
+            balise: "bloc16",
+        },
+        media: {
+            type: MEDIA_TYPE.VIDEO,
+            link: video_url + `/3.3.mp4`,
+            size: 1000
+        },
+    },
+    {
+        title: {
+            text:`3.4 : Edgar Wright, Last Night in Soho`,
+            fontSize: 24,
+            fontStyle: "normal",
+            fontWeight: "bold",
+            textAlign: "center"
+        },
+        description: {
+            text: `Edgar Wright, Last Night in Soho, 2021, film, 1h 56min`,
+            fontSize: 16,
+            fontStyle: "italic",
+            fontWeight: "normal", 
+            textAlign: "center"
+        },
+        variant: VARIANT.CARD_BOTTOM,
+        nav: {
+            chapter: "Chapitre 3",
+            label: "3.4 : Edgar Wright, Last Night in Soho",
+            balise: "bloc17",
+        },
+        media: {
+            type: MEDIA_TYPE.VIDEO,
+            link: video_url + `/3.4.mp4`,
+            size: 1000
+        },
+    },
+    {
+        title: {
+            text:`3.5 : Gaspar Noé, Lux aeterna\nATTENTION : Flashs lumineux colorés, risque épileptique`,
+            fontSize: 24,
+            fontStyle: "normal",
+            fontWeight: "bold",
+            textAlign: "center"
+        },
+        backgroundColor: "#1F1F1F",
+        description: {
+            text: `Gaspar Noé, Lux aeterna, 2019, moyen-métrage, 51min`,
+            fontSize: 16,
+            fontStyle: "italic",
+            fontWeight: "normal", 
+            textAlign: "center"
+        },
+        variant: VARIANT.CARD_BOTTOM,
+        nav: {
+            chapter: "Chapitre 3",
+            label: "3.5 : Gaspar Noé, Lux aeterna",
+            balise: "bloc18",
+        },
+        media: {
+            type: MEDIA_TYPE.VIDEO,
+            link: video_url + `/3.5.mp4`,
+            size: 1000
+        },
+    },
+    {
+        title: {
+            text:`4.1 : Christopher Nolan, Memento`,
+            fontSize: 24,
+            fontStyle: "normal",
+            fontWeight: "bold",
+            textAlign: "center"
+        },
+        backgroundColor: "#1F1F1F",
+        description: {
+            text: `Christopher Nolan, Memento, 2000, film, 1h 53min`,
+            fontSize: 16,
+            fontStyle: "italic",
+            fontWeight: "normal", 
+            textAlign: "center"
+        },
+        variant: VARIANT.CARD_BOTTOM,
+        nav: {
+            chapter: "Chapitre 4",
+            label: "4.1 : Christopher Nolan, Memento",
+            balise: "bloc28",
+        },
+        media: {
+            type: MEDIA_TYPE.VIDEO,
+            link: video_url + `/4.0.mp4`,
+            size: 1000
+        },
+    },
+    {
+        title: {
+            text:`4.2 : Guy Maddin, The Heart of the World`,
+            fontSize: 24,
+            fontStyle: "normal",
+            fontWeight: "bold",
+            textAlign: "center"
+        },
+        description: {
+            text: `Guy Maddin, The Heart of the World, 2000, court-métrage, 6min`,
+            fontSize: 16,
+            fontStyle: "italic",
+            fontWeight: "normal", 
+            textAlign: "center"
+        },
+        variant: VARIANT.CARD_BOTTOM,
+        nav: {
+            chapter: "Chapitre 4",
+            label: "4.2 : Guy Maddin, The Heart of the World",
+            balise: "bloc19",
+        },
+        media: {
+            type: MEDIA_TYPE.VIDEO,
+            link: video_url + `/4.1.mp4`,
+            size: 1000
+        },
+    },
+    {
+        title: {
+            text:`4.3 : György Pálfi, Final Cut: Ladies and Gentlemen`,
+            fontSize: 24,
+            fontStyle: "normal",
+            fontWeight: "bold",
+            textAlign: "center"
+        },
+        backgroundColor: "#1F1F1F",
+        description: {
+            text: `György Pálfi, Final Cut: Ladies and Gentlemen, 2012, Film, 1h 42min`,
+            fontSize: 16,
+            fontStyle: "italic",
+            fontWeight: "normal", 
+            textAlign: "center"
+        },
+        variant: VARIANT.CARD_BOTTOM,
+        nav: {
+            chapter: "Chapitre 4",
+            label: "4.3 : György Pálfi, Final Cut: Ladies and Gentlemen",
+            balise: "bloc20",
+        },
+        media: {
+            type: MEDIA_TYPE.VIDEO,
+            link: video_url + `/4.2.mp4`,
+            size: 1000
+        },
+    },
+    {
+        title: {
+            text:`4.4 : Jeff Wall, La chambre détruite`,
+            fontSize: 24,
+            fontStyle: "normal",
+            fontWeight: "bold",
+            textAlign: "center",
+            spacing: 60
+        },
+        description: {
+            text: `Jeff Wall, La chambre détruite, 1978, photographie, 158.8 x 229 cm \n 	
+            Eugène Delacroix, La Mort de Sardanapale, 1827, huile sur toile, 392 x 469 cm, Musée du Louvre, Paris`,
+            fontSize: 16,
+            fontStyle: "italic",
+            fontWeight: "normal", 
+            textAlign: "left"
+        },
+        variant: VARIANT.DOUBLE_MEDIA_CARD_RIGHT,
+        nav: {
+            chapter: "Chapitre 4",
+            label: "4.4 : Jeff Wall, La chambre détruite",
+            balise: "bloc21",
+        },
+        media: {
+            type: MEDIA_TYPE.IMG,
+            link: img_url + `4.3.webp`,
+            size: 650
+        },
+        media2: {
+            type: MEDIA_TYPE.IMG,
+            link: img_url + `4.5.JPG`,
+            size: 650
+        },
+    },
+    {
+        title: {
+            text:`5.1 : Henry Selick, Coraline`,
+            fontSize: 24,
+            fontStyle: "normal",
+            fontWeight: "bold",
+            textAlign: "center",
+            spacing: 60
+        },
+        description: {
+            text: `Henry Selick, Coraline, 2009, film, 1h 40min. \n La première image représente la cuisine du monde normal de Coraline, la deuxième représente la cuisine du monde parallèle.`,
+            fontSize: 16,
+            fontStyle: "italic",
+            fontWeight: "normal", 
+            textAlign: "left"
+        },
+        variant: VARIANT.DOUBLE_MEDIA_CARD_RIGHT,
+        nav: {
+            chapter: "Chapitre 5",
+            label: "5.1 : Henry Selick, Coraline",
+            balise: "bloc23",
+        },
+        media: {
+            type: MEDIA_TYPE.IMG,
+            link: img_url + `5.1.JPG`,
+            size: 650
+        },
+        media2: {
+            type: MEDIA_TYPE.IMG,
+            link: img_url + `5.2.JPG`,
+            size: 650
+        },
+    },
+    {
+        title: {
+            text:`5.2 : Bruno Collet, Mémorable`,
             fontSize: 24,
             fontStyle: "normal",
             fontWeight: "bold",
@@ -178,52 +519,59 @@ const data = [
         },
         backgroundColor: "#1F1F1F",
         description: {
-            text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+            text: `Bruno Collet, Mémorable, 2019, court-métrage, 12min (images provenant de la chaine youtube : Egy.Best)`,
             fontSize: 16,
             fontStyle: "italic",
             fontWeight: "normal", 
-            textAlign: "right"
+            textAlign: "left"
         },
+        variant: VARIANT.DOUBLE_MEDIA_CARD_RIGHT,
         nav: {
-            chapter: "Chapitre 3",
-            label: "Variant 6",
-            balise: "bloc6",
+            chapter: "Chapitre 5",
+            label: "5.2 : Bruno Collet, Mémorable",
+            balise: "bloc24",
         },
-        variant: VARIANT.DOUBLE_MEDIA_CARD_LEFT,
         media: {
             type: MEDIA_TYPE.IMG,
-            link: img_url + `4.webp`,
-            size: 600
+            link: img_url + `5.3.JPG`,
+            size: 650
         },
         media2: {
-            type: MEDIA_TYPE.VIDEO,
-            link: video_url + `/video_jump_song.mp4`,
-            size: 600
-        }
+            type: MEDIA_TYPE.IMG,
+            link: img_url + `5.4.JPG`,
+            size: 650
+        },
     },
     {
         title: {
-            text:`Variant Media Only`,
+            text:`6.1 : Christian Marclay, The Clock`,
             fontSize: 24,
             fontStyle: "normal",
             fontWeight: "bold",
             textAlign: "center"
         },
-        variant: VARIANT.MEDIA_ONLY,
+        description: {
+            text: `Christian Marclay, The Clock, 2010, film, 24h (vidiéo du film prise par un spectateur dans la sale de diffusion, extraits vidéos provenant de la chaine youtube : JusTiniArt)`,
+            fontSize: 16,
+            fontStyle: "italic",
+            fontWeight: "normal", 
+            textAlign: "center"
+        },
+        variant: VARIANT.CARD_BOTTOM,
         nav: {
-            chapter: "Chapitre 4",
-            label: "Variant 7",
-            balise: "bloc7",
+            chapter: "Chapitre 6",
+            label: "6.1 : Christian Marclay, The Clock",
+            balise: "bloc25",
         },
         media: {
-            type: MEDIA_TYPE.IMG,
-            link: img_url + `3.webp`,
-            size: 600
+            type: MEDIA_TYPE.VIDEO,
+            link: video_url + `/6.1.mp4`,
+            size: 1000
         },
     },
     {
         title: {
-            text:`Variant Text Only`,
+            text:`6.2 : Bill Viola, Tristan's Ascension (The Sound of a Mountain under a Waterfall)`,
             fontSize: 24,
             fontStyle: "normal",
             fontWeight: "bold",
@@ -231,18 +579,50 @@ const data = [
         },
         backgroundColor: "#1F1F1F",
         description: {
-            text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+            text: `Bill Viola, Tristan's Ascension (The Sound of a Mountain under a Waterfall), 2005, vidéo, environ 10min, 5.8x3.25m`,
             fontSize: 16,
             fontStyle: "italic",
             fontWeight: "normal", 
             textAlign: "center"
         },
+        variant: VARIANT.CARD_BOTTOM,
         nav: {
-            chapter: "Chapitre 4",
-            label: "Variant 8",
-            balise: "bloc8",
+            chapter: "Chapitre 6",
+            label: "6.2 : Bill Viola, Tristan's Ascension (The Sound of a Mountain under a Waterfall)",
+            balise: "bloc26",
         },
-        variant: VARIANT.TEXT_ONLY
+        media: {
+            type: MEDIA_TYPE.VIDEO,
+            link: video_url + `/6.2.mp4`,
+            size: 1000
+        },
+    },
+    {
+        title: {
+            text:`6.3 : David Lowery, The Green Knight`,
+            fontSize: 24,
+            fontStyle: "normal",
+            fontWeight: "bold",
+            textAlign: "center"
+        },
+        description: {
+            text: `David Lowery, The Green Knight, 2021, film, 2h 10`,
+            fontSize: 16,
+            fontStyle: "italic",
+            fontWeight: "normal", 
+            textAlign: "center"
+        },
+        variant: VARIANT.CARD_BOTTOM,
+        nav: {
+            chapter: "Chapitre 6",
+            label: "6.3 : David Lowery, The Green Knight",
+            balise: "bloc27",
+        },
+        media: {
+            type: MEDIA_TYPE.VIDEO,
+            link: video_url + `/6.3.mp4`,
+            size: 1000
+        },
     }
 ];
 
@@ -289,7 +669,6 @@ function createTitle(title, order = 2) {
 
 function createDescription(description) {
     const titleText = description.text.split('\n'); 
-
     if(titleText.length > 1) {
         const container2 = document.createElement(`div`);
         titleText.forEach((textPart) => {
@@ -310,8 +689,6 @@ function createDescription(description) {
         return cardDescription;
     }
 }
-
-
 
 function createPicture(media) {  
     const cardImage = document.createElement('img');
@@ -383,6 +760,8 @@ function createCardTop(title, description, balise, media, backgroundColor) {
         const cardMedia  = createMedia(media);
         pictureContainer.appendChild(cardMedia);
     }
+
+   
 
     card.appendChild(pictureContainer);
 
